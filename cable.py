@@ -22,8 +22,7 @@ model = YOLO('yolov8n.pt')
 
 # Training.
 results = model.train(
-   #data='oss://wurenji-tieta.oss-cn-hangzhou-internal.aliyuncs.com/通航/1.  景观塔、单管塔（标准拍摄照片数量：16）/平台及天线(每层)/uav.yaml',
-   data='cable.yaml',
+   data='oss://wurenji-tieta.oss-cn-hangzhou-internal.aliyuncs.com/通航/1.  景观塔、单管塔（标准拍摄照片数量：16）/平台及天线(每层)/cable.yaml',
    imgsz=2000,
    epochs=2,
    batch=5,
