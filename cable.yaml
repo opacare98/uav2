@@ -1,5 +1,5 @@
-train: train/images 
-val: valid/images 
+train: oss://wurenji-tieta.oss-cn-hangzhou-internal.aliyuncs.com/通航/1.  景观塔、单管塔（标准拍摄照片数量：16）/平台及天线(每层)/train/images 
+val: oss://wurenji-tieta.oss-cn-hangzhou-internal.aliyuncs.com/通航/1.  景观塔、单管塔（标准拍摄照片数量：16）/平台及天线(每层)/valid/images 
 
 nc: 1
 
